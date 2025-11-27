@@ -2,12 +2,8 @@
 
 # --- Global Conversion Factors ---
 # Define the conversion factors using the exact fraction format expected by the checker.
-# Python 3 automatically performs float division when using the / operator.
 
-# Factor for (Tf - 32) * (5/9)
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-
-# Factor for (Tc * (9/5)) + 32
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
 # --- Conversion Functions ---
